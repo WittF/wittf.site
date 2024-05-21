@@ -1,0 +1,143 @@
+<html>
+<head>
+    <link rel="icon" href="icon.png">
+    <meta charset="utf-8">
+    <meta name="description" content="WittF's-Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WittF</title>
+    <style>
+        body {
+            user-select: none;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            width: 60%;
+            background-color: #fff;
+            padding: 2% 5%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+            
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        a {
+            color: #20a53a;
+            display: inline-block;
+            margin-left: 20px
+        }
+
+        hr {
+            border: none;
+            height: 3px;
+            background-color: #969696;
+        }
+
+        .github-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .github-icon {
+            width: 40px;
+            height: auto;
+        }
+
+        .link-url {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: inline-block
+        }
+
+        .home-icon {
+            position: absolute;
+            width: 40px;
+            height: auto;
+            top: 5px;
+            right: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 80%;
+                padding: 1% 2%;
+            }
+            .main {
+                margin-top: 20px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+            .github-link {
+                margin-top: 10px;
+            }
+            .home-icon {
+                width: 30px;
+            }
+        }
+    </style>
+</head>
+<body oncontextmenu="return false;">
+    <div class="main">
+        <h1>Hi👋</h1>
+        <div class="container">
+            <a href="https://home.wittf.site/">
+                <img src="home.svg" alt="Home" class="home-icon" ondragstart="return false;" />
+            </a>
+            <div>
+                <h2>我正在使用并推荐的服务商</h2>
+            </div>
+            <h3>
+                <div>
+                    <a href="https://link.wittf.site/rainyun" target="_blank" class="link-url" title="优秀的云服务供应商">RainYun雨云</a>
+                </div>
+                <div>
+                    <a href="https://link.wittf.site/bestvm" target="_blank" class="link-url" title="流量充足价格合适,稳定,流媒体可用(懂的都懂🤫">BestVM</a>
+                </div>
+                <div>
+                    <a href="https://link.wittf.site/nnr" target="_blank" class="link-url" title="延迟较低,稳定,端口转发服务(懂的都懂🤫">NNR</a>
+                </div>
+            </h3>
+                <hr>
+            <h3>    
+                <div>
+                    <a href="https://link.wittf.site/mydiscord" target="_blank" class="link-url" title="我的discord频道">MyDiscord</a>
+                </div>
+                <div>
+                    <a href="https://link.wittf.site/mygithub" target="_blank" class="link-url" title="我的Github主页">MyGithub</a>
+                </div>
+            </h3>
+        </div>
+        <div href="https://github.com/WittF" target="_blank" class="github-link" title="My GitHub">
+            <img src="github.svg" alt="GitHub" class="github-icon" ondragstart="return false;" />
+        </div>
+    </div>
+    <footer style="text-align: center; padding: 20px;">
+        © WittF 2024
+    </footer>
+</body>
